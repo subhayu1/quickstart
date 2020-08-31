@@ -27,11 +27,11 @@ pip install -r requirements.txt
 # initializing Link, see plaid.com/docs/faq/#does-plaid-support-international-bank-accounts-
 # for a complete list
 
-PLAID_CLIENT_ID='CLIENT_ID' \
-PLAID_SECRET='SECRET' \
-PLAID_ENV='sandbox' \
-PLAID_PRODUCTS='transactions' \
-PLAID_COUNTRY_CODES='US' \
+PLAID_CLIENT_ID=5f4c3effd481e3001149b754 \
+PLAID_SECRET=115268b230d80e984e17f05b9bd802 \
+PLAID_PRODUCTS=transactions \
+PLAID_COUNTRY_CODES=US \
+PLAID_ENV=sandbox \
 python server.py
 
 # Go to http://localhost:8000
